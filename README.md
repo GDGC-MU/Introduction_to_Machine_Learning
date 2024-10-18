@@ -52,11 +52,10 @@ To upload a dataset to Google Drive after unzipping it, follow these steps:
 
 That's it! Your dataset is now available in Google Drive for further use. If you have any questions or need help with a specific step, feel free to ask!
 
-### Step 3: Mounting into Google Colab
 
 ### NEED FINISH 
 
-## Verifying Installation
+## Step 3: Mounting into Google Colab
 
 ### NEED FINISH
 
