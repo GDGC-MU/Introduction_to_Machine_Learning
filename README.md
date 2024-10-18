@@ -7,6 +7,7 @@
   - [Step 2: Uploading Datset to Google Drive](#step-2-uploading-dataset-to-google-drive)
   - [Step 3: Mounting Google Collab](#step-3-mounting-google-collab)
 - [Setup Finalization](#setup-finalization)
+- [Issues](#issues)
 - [License](#license)
 
 ## Introduction
@@ -102,7 +103,30 @@ That's it! Your dataset is now available in Google Drive for further use. If you
    - Run the program, make sure there is no issues. If there is issues make sure that the path matches how it looks in your google drive. 
 
 ## Issues
-   - If you have issues email: gdg@manhattan.edu or [Click Here](mailto:gdg@manhattan.edu)
-## License
 
-This project is licensed under the MIT License.
+If you encounter any bugs or issues email: gdg@manhattan.edu or [Click Here](mailto:gdg@manhattan.edu)
+
+Please provide as much detail as possible, including steps to reproduce the issue and we will try to help you out!
+
+## License
+MIT License
+
+Copyright (c) [2024] [GDGCMU]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
