@@ -87,7 +87,7 @@ That's it! Your dataset is now available in Google Drive for further use. If you
   <img src="setup_ignore/google_col2.png" alt="image4"/>
 </p>
 
-   - It should look like this and click on improvement.ipyb (in the photo it doesn't show yet)!
+   - It should look like this and click on template.ipynb (in the photo it doesn't show yet)!
 
 ## Setup Finalization
 
