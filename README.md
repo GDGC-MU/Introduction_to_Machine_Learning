@@ -55,7 +55,7 @@ That's it! Your dataset is now available in Google Drive for further use. If you
 
 ### NEED FINISH 
 
-## Step 3: Mounting into Google Colab
+## Step 3: Mounting it on Google Collab
 
 ### NEED FINISH
 
