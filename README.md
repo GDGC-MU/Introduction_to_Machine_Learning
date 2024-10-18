@@ -11,8 +11,20 @@
 - [License](#license)
 
 ## Introduction
-This guide provides instructions on setting up a machine learning environment with TensorFlow.
 
+This project demonstrates the use of **Machine Learning** with **TensorFlow** to classify images of hand gestures representing rock, paper, and scissors. Using a dataset of over 2000 images, this model is trained to recognize the hand shapes and predict the correct gesture. 
+
+The goal is to create an image classification model that can accurately identify the gestures, which could be further used in interactive games or other computer vision applications. 
+
+Key features of this project:
+- A well-curated dataset of 2000+ labeled images of rock, paper, and scissors.
+- Deep learning model built with TensorFlow and Keras.
+- Implementation of data augmentation techniques to improve model performance.
+- Comprehensive evaluation and visualization of the model's accuracy.
+
+Feel free to explore the code, test the model, and even experiment with improving it!
+
+This guide also provides instructions on setting up google colab with TensorFlow.
 
 ## Installation
 
