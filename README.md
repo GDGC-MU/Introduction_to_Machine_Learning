@@ -6,7 +6,7 @@
   - [Step 1: Downloading Dataset](#step-1-downloading-dataset)
   - [Step 2: Uploading Datset to Google Drive](#step-2-uploading-dataset-to-google-drive)
   - [Step 3: Mounting Google Collab](#step-3-mounting-google-collab)
-- [Verifying Installation](#verifying-installation)
+- [Setup Finalization](#setup-finalization)
 - [License](#license)
 
 ## Introduction
@@ -26,7 +26,7 @@ g
 ### Step 2: Uploading Dataset to Google Drive
 
 <p align="center">
-  <img src="setup_ignore/google_drive.png" alt="image1"/>
+  <img src="setup_ignore/google_drive.png" alt="image2"/>
 </p>
 
 To upload a dataset to Google Drive after unzipping it, follow these steps:
@@ -43,30 +43,66 @@ To upload a dataset to Google Drive after unzipping it, follow these steps:
    - Select "Folder Upload" if you want to upload an entire folder, or "File Upload" if you're uploading individual files.
    - Navigate to the folder where you extracted the dataset, select it, and click "Upload."
 
-3. **Wait for the Upload to Complete**:
+**Wait for the Upload to Complete**:
    - You’ll see a progress bar indicating the upload status. Wait until it's finished.
    - HEADS UP ! It might take a while!
 
-4. **Check Your Files**:
+**Check Your Files**:
    - After the upload is complete, you should see the dataset in your Google Drive. Should be a large dataset(rock-paper-scissors)!
 
 That's it! Your dataset is now available in Google Drive for further use. If you have any questions or need help with a specific step, feel free to ask!
 
-
-### NEED FINISH 
-
 ## Step 3: Mounting Google Collab
 
-### NEED FINISH
 
-## Verify Installation
+**Go to Google Colab**:
+   - Click on link to redirect to google colab!
+[Google Colab](https://colab.research.google.com/)
 
-## Need FINISH
+**Open book Option**:
+   - A page looking like this should pop up! Go to the github option and copy this repository and paste it!
 
-## Additional Resources
+<p align="center">
+  <img src="setup_ignore/google_col.png" alt="image3"/>
+</p>
 
-Helpful links and documentation to learn more about TensorFlow.
+   ```
+    https://github.com/GDGC-MU/Introduction_to_Machine_Learning.git
 
+   ```
+<p align="center">
+  <img src="setup_ignore/google_col2.png" alt="image4"/>
+</p>
+
+   - It should look like this and click on improvement.ipyb (in the photo it doesn't show yet)!
+
+## Setup Finalization
+
+   - Once in the notebook, make sure that this code is in your notebook.
+
+
+<p align="center">
+  <img src="setup_ignore/final.png" alt="image4"/>
+</p>
+
+```python 
+    from google.colab import drive
+    drive.mount('/content/drive')
+```
+
+```python
+    import os
+
+    # Change directory to a specific folder in your Google Drive
+    os.chdir('/content/drive/My Drive/Rock-Paper-Scissors')
+
+    # Print the current working directory
+    print(os.getcwd())
+```
+   - Run the program, make sure there is no issues. If there is issues make sure that the path matches how it looks in your google drive. 
+
+## Issues
+   - If you have issues email: gdg@manhattan.edu or [Click Here](mailto:gdg@manhattan.edu)
 ## License
 
 This project is licensed under the MIT License.
