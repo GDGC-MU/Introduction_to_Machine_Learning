@@ -5,7 +5,7 @@
 - [Installation](#installation)
   - [Step 1: Downloading Dataset](#step-1-downloading-dataset)
   - [Step 2: Uploading Datset to Google Drive](#step-2-uploading-dataset-to-google-drive)
-  - [Step 3: Mounting it on Google Collab](#step-3-mounting-google-collab)
+  - [Step 3: Mounting Google Collab](#step-3-mounting-google-collab)
 - [Verifying Installation](#verifying-installation)
 - [License](#license)
 
@@ -55,7 +55,7 @@ That's it! Your dataset is now available in Google Drive for further use. If you
 
 ### NEED FINISH 
 
-## Step 3: Mounting it on Google Collab
+## Step 3: Mounting Google Collab
 
 ### NEED FINISH
 
